@@ -100,10 +100,10 @@ _G.packer_plugins = {
     path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/cmp-path",
     url = "https://github.com/hrsh7th/cmp-path"
   },
-  ["cmp-vnsip"] = {
+  ["cmp-vsnip"] = {
     loaded = true,
-    path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/cmp-vnsip",
-    url = "https://github.com/hrsh7th/cmp-vnsip"
+    path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
+    url = "https://github.com/hrsh7th/cmp-vsnip"
   },
   gruvbox = {
     loaded = true,
@@ -231,10 +231,10 @@ _G.packer_plugins = {
     path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/trouble.nvim",
     url = "https://github.com/folke/trouble.nvim"
   },
-  ["vim-vnsip"] = {
+  ["vim-vsnip"] = {
     loaded = true,
-    path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/vim-vnsip",
-    url = "https://github.com/hrsh7th/vim-vnsip"
+    path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/vim-vsnip",
+    url = "https://github.com/hrsh7th/vim-vsnip"
   }
 }
 
@@ -251,10 +251,10 @@ time([[Config for nvim-treesitter]], false)
 time([[Config for nvim-cursorline]], true)
 require("plugins.nvim-cursorline")
 time([[Config for nvim-cursorline]], false)
--- Config for: nvim-colorizer.lua
-time([[Config for nvim-colorizer.lua]], true)
-require("plugins.colorizer")
-time([[Config for nvim-colorizer.lua]], false)
+-- Config for: nvim-tree.lua
+time([[Config for nvim-tree.lua]], true)
+require("plugins.nvim-tree")
+time([[Config for nvim-tree.lua]], false)
 -- Config for: mason-lspconfig.nvim
 time([[Config for mason-lspconfig.nvim]], true)
 require("plugins.mason-lspconfig")
@@ -267,14 +267,14 @@ time([[Config for nvim-ts-rainbow]], false)
 time([[Config for lualine.nvim]], true)
 require("plugins.lualine")
 time([[Config for lualine.nvim]], false)
--- Config for: nvim-tree.lua
-time([[Config for nvim-tree.lua]], true)
-require("plugins.nvim-tree")
-time([[Config for nvim-tree.lua]], false)
 -- Config for: nvim-ts-autotag
 time([[Config for nvim-ts-autotag]], true)
 require("plugins.nvim-ts-autotag")
 time([[Config for nvim-ts-autotag]], false)
+-- Config for: barbar.nvim
+time([[Config for barbar.nvim]], true)
+require("plugins.barbar")
+time([[Config for barbar.nvim]], false)
 -- Config for: nvim-autopairs
 time([[Config for nvim-autopairs]], true)
 require("plugins.nvim-autopairs")
@@ -283,10 +283,10 @@ time([[Config for nvim-autopairs]], false)
 time([[Config for null-ls.nvim]], true)
 require("plugins.null-ls")
 time([[Config for null-ls.nvim]], false)
--- Config for: barbar.nvim
-time([[Config for barbar.nvim]], true)
-require("plugins.barbar")
-time([[Config for barbar.nvim]], false)
+-- Config for: nvim-colorizer.lua
+time([[Config for nvim-colorizer.lua]], true)
+require("plugins.colorizer")
+time([[Config for nvim-colorizer.lua]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
