@@ -105,6 +105,11 @@ _G.packer_plugins = {
     path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/cmp-vsnip",
     url = "https://github.com/hrsh7th/cmp-vsnip"
   },
+  ["editorconfig.nvim"] = {
+    loaded = true,
+    path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/editorconfig.nvim",
+    url = "https://github.com/gpanders/editorconfig.nvim"
+  },
   gruvbox = {
     loaded = true,
     path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/gruvbox",

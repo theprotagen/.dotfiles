@@ -43,6 +43,7 @@ return require('packer').startup(function(use)
   use({ 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate', config = config_path('nvim-treesitter') })
   use({ 'JoosepAlviste/nvim-ts-context-commentstring' })
   use({ 'lewis6991/nvim-treesitter-context' })
+  use({ 'gpanders/editorconfig.nvim' })
 
   -- Fuzzy finder
   use({ 'nvim-telescope/telescope.nvim' })
