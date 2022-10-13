@@ -78,6 +78,7 @@ return require('packer').startup(function(use)
   use({ 'nvim-lua/plenary.nvim' })
   use({ 'nvim-lua/popup.nvim' })
   use({ 'lewis6991/impatient.nvim' })
+  use({ 'xiyaowong/nvim-transparent', config = config_path('transparent') })
 
   -- Automatically setup the configuration
   if packer_bootstrap then

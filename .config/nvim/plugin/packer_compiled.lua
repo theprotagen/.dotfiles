@@ -172,6 +172,12 @@ _G.packer_plugins = {
     path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-transparent"] = {
+    config = { 'require("plugins.transparent")' },
+    loaded = true,
+    path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/nvim-transparent",
+    url = "https://github.com/xiyaowong/nvim-transparent"
+  },
   ["nvim-tree.lua"] = {
     config = { 'require("plugins.nvim-tree")' },
     loaded = true,
@@ -268,6 +274,10 @@ time([[Config for mason-lspconfig.nvim]], false)
 time([[Config for nvim-ts-rainbow]], true)
 require("plugins.nvim-ts-rainbow")
 time([[Config for nvim-ts-rainbow]], false)
+-- Config for: nvim-transparent
+time([[Config for nvim-transparent]], true)
+require("plugins.transparent")
+time([[Config for nvim-transparent]], false)
 -- Config for: lualine.nvim
 time([[Config for lualine.nvim]], true)
 require("plugins.lualine")
