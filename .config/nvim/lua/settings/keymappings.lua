@@ -4,7 +4,7 @@ local opts = { noremap = true, silent = true }
 -- LSP
 map('n', '<leader>,', ':lua vim.lsp.diagnostic.goto_prev()<CR>', opts)
 map('n', '<leader>;', ':lua vim.lsp.diagnostic.goto_next()<CR>', opts)
-map('n', '<leader>a', ':lua vim.lsp.diagnostic.code_action()<CR>', opts)
+map('n', '<leader>a', ':lua vim.lsp.buf.code_action()<CR>', opts)
 map('n', '<leader>d', ':lua vim.lsp.buf.definition()<CR>', opts)
 map('n', '<leader>f', ':lua vim.lsp.buf.format()<CR>', opts)
 map('n', '<leader>h', ':lua vim.lsp.buf.hover()<CR>', opts)
@@ -36,4 +36,6 @@ map('n', '<A-9>', '<Cmd>BufferGoto 9<CR>', opts)
 map('n', '<A-0>', '<Cmd>BufferLast<CR>', opts)
 map('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
 map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
-map('n', '<C-p>', '<Cmd>BufferPick<CR>', opts)
+
+-- Trouble
+map('n', '<leader>xx', '<cmd>TroubleToggle<CR>', opts)

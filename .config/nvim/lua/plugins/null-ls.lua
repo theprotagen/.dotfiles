@@ -2,6 +2,8 @@ local augroup = vim.api.nvim_create_augroup('LspFormatting', {})
 
 require('null-ls').setup({
   sources = {
+    --require('null-ls').builtins.formatting.rustywind,
+    require('null-ls').builtins.diagnostics.markdownlint_cli2,
     require('null-ls').builtins.diagnostics.eslint_d,
     require('null-ls').builtins.formatting.eslint_d,
     require('null-ls').builtins.formatting.prettierd
