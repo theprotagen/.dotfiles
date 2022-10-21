@@ -187,11 +187,6 @@ bar {
 
 bindsym $mod+M exec ~/setup_monitors.sh
 
-# rename workspaces
-bindsym $mod+r exec i3-input -F "rename workspace to "$(i3-msg -t get_workspaces | jq -r "map(select(.focused))[0].num"):%s"" -P "New name: "
-# clear workspace name
-bindsym $mod+c exec i3-msg "rename workspace to "$(i3-msg -t get_workspaces | jq -r "map(select(.focused))[0].num")""
-
 exec_always --no-startup-id nitrogen --restore
 
 exec_always --no-startup-id picom &

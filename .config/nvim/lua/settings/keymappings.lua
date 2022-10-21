@@ -36,6 +36,7 @@ map('n', '<A-9>', '<Cmd>BufferGoto 9<CR>', opts)
 map('n', '<A-0>', '<Cmd>BufferLast<CR>', opts)
 map('n', '<A-p>', '<Cmd>BufferPin<CR>', opts)
 map('n', '<A-c>', '<Cmd>BufferClose<CR>', opts)
+--map('n', '<A-c>', '<Cmd>BufferDelete<CR>', opts)
 
 -- Trouble
 map('n', '<leader>xx', '<cmd>TroubleToggle<CR>', opts)

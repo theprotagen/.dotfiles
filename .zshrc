@@ -117,3 +117,10 @@ export NVM_DIR="$HOME/.nvm"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 source ~/powerlevel10k/powerlevel10k.zsh-theme
+
+# pnpm
+export PNPM_HOME="/home/theprotagen/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+#
+export PATH="~/.local/bin:$PATH"

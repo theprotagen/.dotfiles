@@ -74,6 +74,9 @@ return require('packer').startup(function(use)
   -- Gruvbox
   use ({ 'gruvbox-community/gruvbox' })
 
+  -- Tokyo Night
+  use ({ 'folke/tokyonight.nvim' })
+
   -- Utilities
   use({ 'nvim-lua/plenary.nvim' })
   use({ 'nvim-lua/popup.nvim' })

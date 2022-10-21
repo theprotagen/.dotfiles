@@ -237,6 +237,11 @@ _G.packer_plugins = {
     path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   ["trouble.nvim"] = {
     loaded = true,
     path = "/home/theprotagen/.local/share/nvim/site/pack/packer/start/trouble.nvim",
@@ -266,42 +271,42 @@ time([[Config for nvim-cursorline]], false)
 time([[Config for nvim-tree.lua]], true)
 require("plugins.nvim-tree")
 time([[Config for nvim-tree.lua]], false)
--- Config for: mason-lspconfig.nvim
-time([[Config for mason-lspconfig.nvim]], true)
-require("plugins.mason-lspconfig")
-time([[Config for mason-lspconfig.nvim]], false)
--- Config for: nvim-ts-rainbow
-time([[Config for nvim-ts-rainbow]], true)
-require("plugins.nvim-ts-rainbow")
-time([[Config for nvim-ts-rainbow]], false)
--- Config for: nvim-transparent
-time([[Config for nvim-transparent]], true)
-require("plugins.transparent")
-time([[Config for nvim-transparent]], false)
--- Config for: lualine.nvim
-time([[Config for lualine.nvim]], true)
-require("plugins.lualine")
-time([[Config for lualine.nvim]], false)
--- Config for: nvim-ts-autotag
-time([[Config for nvim-ts-autotag]], true)
-require("plugins.nvim-ts-autotag")
-time([[Config for nvim-ts-autotag]], false)
 -- Config for: barbar.nvim
 time([[Config for barbar.nvim]], true)
 require("plugins.barbar")
 time([[Config for barbar.nvim]], false)
--- Config for: nvim-autopairs
-time([[Config for nvim-autopairs]], true)
-require("plugins.nvim-autopairs")
-time([[Config for nvim-autopairs]], false)
--- Config for: null-ls.nvim
-time([[Config for null-ls.nvim]], true)
-require("plugins.null-ls")
-time([[Config for null-ls.nvim]], false)
+-- Config for: nvim-transparent
+time([[Config for nvim-transparent]], true)
+require("plugins.transparent")
+time([[Config for nvim-transparent]], false)
 -- Config for: nvim-colorizer.lua
 time([[Config for nvim-colorizer.lua]], true)
 require("plugins.colorizer")
 time([[Config for nvim-colorizer.lua]], false)
+-- Config for: lualine.nvim
+time([[Config for lualine.nvim]], true)
+require("plugins.lualine")
+time([[Config for lualine.nvim]], false)
+-- Config for: null-ls.nvim
+time([[Config for null-ls.nvim]], true)
+require("plugins.null-ls")
+time([[Config for null-ls.nvim]], false)
+-- Config for: mason-lspconfig.nvim
+time([[Config for mason-lspconfig.nvim]], true)
+require("plugins.mason-lspconfig")
+time([[Config for mason-lspconfig.nvim]], false)
+-- Config for: nvim-ts-autotag
+time([[Config for nvim-ts-autotag]], true)
+require("plugins.nvim-ts-autotag")
+time([[Config for nvim-ts-autotag]], false)
+-- Config for: nvim-autopairs
+time([[Config for nvim-autopairs]], true)
+require("plugins.nvim-autopairs")
+time([[Config for nvim-autopairs]], false)
+-- Config for: nvim-ts-rainbow
+time([[Config for nvim-ts-rainbow]], true)
+require("plugins.nvim-ts-rainbow")
+time([[Config for nvim-ts-rainbow]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
